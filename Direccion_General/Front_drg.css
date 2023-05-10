@@ -1,0 +1,64 @@
+/* Styles */
+body {
+    font-family: 'Popins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.imge{
+    width: 355.8px;
+    height: 133.9px;
+    float: left;
+    cursor: pointer;
+}
+
+
+.barr-navg {
+    background-color: #54844c;
+	width: 100%;
+	float: left;
+    height: 150px;
+    margin-top: -16px;
+}
+
+.barr-navg ul{
+    list-style: none;
+}
+
+.barr-navg li{
+    float: right;
+    text-decoration-style: none;
+    text-transform: uppercase; 
+    color: aliceblue;
+    cursor: pointer;
+    margin: auto;
+    margin-right: 80px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-color: #345034;
+    border-style: solid;
+    border-radius: 20px;
+}
+#cuerpo {
+	background-color: #eee;
+    padding: auto;
+}
+
+#btnes {
+    height: 40px;
+    width: 300px;
+}
+
+#icondr{
+    height: 60%;
+    width: 40%;
+}
+
+footer{
+    
+}
+
+
+
+

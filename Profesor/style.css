@@ -1,0 +1,295 @@
+body  {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.image {
+    width: 355.8px;
+    height: 108.9px;
+    float: left;
+}
+
+@media (min-width: 1201px)
+{
+    .teacher-header ul{
+        list-style: none;
+        display: flex;
+        padding-left: 2em;
+        text-align: center;
+    }
+
+    .teacher-header {
+        width: 100%;
+        position: absolute;
+        background-color: #54844c;
+        float: left;
+        /*Aqui*/
+    }
+
+    .teacher-footer { 
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #54844c;
+        margin: 0px;
+    }
+
+    .anouncment{
+        margin-top: 0px;
+        width: 353.5px;
+        height: 447px;
+        padding-bottom: 5em;
+    }
+}
+@media (min-width: 601px) and (max-width: 1200px)
+{
+    .teacher-header ul{
+        list-style: none;
+        display: flex;
+        padding-left: 1em;
+        text-align: center;
+    }
+
+    .anouncment{
+        margin-top: 0px;
+        width: 353.5px;
+        height: 447px;
+        padding-bottom: 5em;
+    }
+
+    .teacher-header {
+        width: 100%;
+        position: absolute;
+        background-color: #54844c;
+        float: left;
+        /*Aqui*/
+    }
+
+    .teacher-footer { 
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #54844c;
+        margin: 0px;
+    }
+}
+@media (max-width: 601px)
+{
+    .teacher-header {
+        width: 100%;
+        position: absolute;
+        background-color: #54844c;
+        float: left;
+        /*Aqui*/
+    }
+
+    .teacher-footer { 
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #54844c;
+        margin: 0px;
+    }
+    
+}
+
+
+.teacher-header ul{
+    list-style: none;
+    float: left;
+}
+
+
+.teacher-header {
+    background-color: #54844c;
+    position: absolute;
+    width: 1536px;
+    float: left;
+}
+
+.teacher-header a{
+    text-decoration: none; /*Referencia a otra pagina, quitandole el subrayado y colocando otra pagina.*/
+    color: aliceblue;
+}
+.teacher-header li{
+    float: left;
+    text-decoration-style: none;
+    text-transform: uppercase; 
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 51.4px;
+    margin-right: 26px;
+    margin-top: 18px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #345034;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.teacher-footer { 
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #54844c;
+    margin: 0px;
+}
+
+
+
+.teacher-footer h3{
+    text-transform: uppercase; 
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.teacher-footer h5{
+    text-transform: uppercase;
+    color: aliceblue;
+    float: left;
+    margin-top: -10px;
+    padding-top: 0px;
+    font-size: 0.8em;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.teacher-footer img {
+    width: 40px;
+    height: 40px;
+    float: left;
+   
+}
+
+
+
+.teacher-footer li{
+    float: left;
+    list-style: none;
+    color: aliceblue;
+    margin: 0;
+  
+}
+
+.teacher-footer p {
+
+   margin: 5px;
+   text-align: center;
+
+}
+
+/*Aqui inicia la informacion de la pagina de la solicitud*/
+
+
+.boton
+{
+
+    float: center;
+    width: 80%; 
+    margin: 30px;
+    
+
+}
+
+.solicitude-page ul{
+    list-style: none;
+    float: left;
+}
+.solicitude-page {
+    background-color: #54844c;
+    position: absolute;
+    width: 100%;
+    float: left; 
+}
+
+.solicitude-page a{
+    text-decoration: none; /*Referencia a otra pagina, quitandole el subrayado y colocando otra pagina.*/
+    color: aliceblue;
+}
+.solicitude-page li{
+    float: left;
+    text-decoration-style: none;
+    text-transform: uppercase; 
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    border-color: #345034;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+
+
+
+/*Aqui inicia la informacion de la pagina del proceso*/
+
+
+
+.process-page img {
+    margin-left: -40px;
+}
+.process-page ul{
+    list-style: none;
+    float: left;
+}
+.process-page {
+    background-color: #54844c;
+    width: 100%;
+    float: left; 
+}
+
+.process-page a{
+    text-decoration: none; /*Referencia a otra pagina, quitandole el subrayado y colocando otra pagina.*/
+    color: aliceblue;
+}
+.process-page li{
+    float: left;
+    text-decoration-style: none;
+    text-transform: uppercase; 
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    border-color: #345034;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+section {
+position: absolute;
+margin: 300px;
+margin-left: 580px;
+list-style: none;
+text-align: center;
+margin-top: 180px;
+}
+
+section a { 
+    text-decoration: none; /*Referencia a otra pagina, quitandole el subrayado y colocando otra pagina.*/
+    color: black;
+}
+
+section input{
+    margin-top: 20px;
+}
+
+section h3 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
